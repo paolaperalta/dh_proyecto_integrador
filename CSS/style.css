@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+  font-family:'Quicksand', sans-serif;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color:#EBEBE9;
+}
+
+h1 {
+font-family: 'Lato', sans-serif;
+color: #01886A;
+text-align: center;
+font-size: 2.2em;
+line-height: 1em;
+font-weight: 300;
+padding-top: 1em;
+padding-bottom: 0.5em;
+}
+
+.container {
+  width:100%;
+  padding:30px 30px 0px 30px;
+}
+
+.btn{
+  width: 100%;
+  background-color: #E2D4C9;
+}
+
+.etiquetas{
+font-family: 'Lato', sans-serif;
+font-size: 1.2em;
+font-weight: 1;
+color: #01886A;
+padding-top: 2px;
+width: 95%;
+
+}
+
+.completar{
+  font-family:'Quicksand', sans-serif;
+  width: 100%;
+  height: 3em;
+}
+
+.olvidaste{
+  padding-top: 10px;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  font-size: 1em;
+  align:right;
+}
+
+.btn-block{
+  display: flex;
+
+}
+
+.recordar{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  font-size: 1em;
+  align:right;
+}
+
+
+/*tablets*/
+@media only screen and (min-width: 600px) {
+  .container {
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items:center;
+
+  }
+  h1 {
+  font-size: 2.3em;
+  }
+  .etiquetas{
+    padding: 15px 0px 0px 0px;
+    align-self:flex-start;
+    font-size: 1.2em;
+  }
+  .btn{
+    width:50%;
+  }
+  .recordar{
+    padding: 10px 50px 30px 50px;
+    font-size: 0.9em;
+  }
+
+}
+
+/*desktop*/
+@media only screen and (min-width: 768px){
+  .container {
+    width:70%;
+    padding: 100px 100px 100px 100px;
+  }
+
+
+
+
+}

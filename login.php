@@ -4,6 +4,8 @@
 
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
+<meta charset="utf-8">
+
   <head>
     <title>Acceder</title
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -13,7 +15,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="CSS/style.css">
-
 
     </head>
         <div class="container">
@@ -28,7 +29,7 @@
         <p><a class="olvidaste" style=color:#DFB988>¿Olvidaste tu contraseña?</a></p>
 
 
-        <button type="button" class="btn btn-info" data-toggle="button" aria-disabled="true" autocomplete="off">
+        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal" aria-disabled="true" autocomplete="off">
           Iniciar sesión
         </button>
         <br><br>
@@ -45,13 +46,6 @@
 
         <br>
         <br>
-        <label>
-
-        </label>
-
-    <meta charset="utf-8">
-    <title></title>
-
   <body>
 
   </body>

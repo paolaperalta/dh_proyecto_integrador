@@ -28,15 +28,17 @@
         <p><a class="olvidaste" style=color:#DFB988>¿Olvidaste tu contraseña?</a></p>
 
 
-        <button type="button" class="btn btn-primary" data-toggle="button" aria-disabled="true" autocomplete="off">
+        <button type="button" class="btn btn-info" data-toggle="button" aria-disabled="true" autocomplete="off">
           Iniciar sesión
         </button>
-
-
         <br><br>
           <div class="recordar">
           <input type="checkbox" name="remember" style="margin:0px 3px 0px 0px">Recordarme
+          <br>
+
           </div>
+          <a class="signUp">¿Usuario nuevo? Creá una cuenta</a>
+
 
 
 </div>
